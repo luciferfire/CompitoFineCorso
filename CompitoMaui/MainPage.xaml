@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompitoMaui.MainPage">
+
+    <Grid RowDefinitions="auto,50, *, 70">
+        <StackLayout Grid.Row="0">
+            <Image Source="backgroundcity" Aspect="AspectFit"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Background="AntiqueWhite">
+            <Label Text="Informazioni Città Grosseto" FontSize="Large" FontAttributes="Bold" Padding="10" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        </StackLayout>
+        <CollectionView Grid.Row="2" ItemsSource="{Binding cityResults}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <Border Stroke="Black" Padding="25">
+                            <FlexLayout>
+                                <Label Text="Abitanti: " TextColor="Black"/>
+                                <Label Text="{Binding record.Abitanti}" TextColor="Black"/>
+                            </FlexLayout>
+                        </Border>
+                        <Border Stroke="Black" Padding="25">
+                            <FlexLayout>
+                                <Label Text="Sindaco: " TextColor="Black"/>
+                                <Label Text="{Binding record.Sindaco}" TextColor="Black"/>
+                            </FlexLayout>
+                        </Border>
+                        <Border Stroke="Black" Padding="25">
+                            <FlexLayout>
+                                <Label Text="Provincia: " TextColor="Black"/>
+                                <Label Text="{Binding record.Provincia}" TextColor="Black"/>
+                            </FlexLayout>
+                        </Border>
+                        <Border Stroke="Black" Padding="25">
+                            <FlexLayout>
+                                <Label Text="Regione: " TextColor="Black"/>
+                                <Label Text="{Binding record.Regione}" TextColor="Black"/>
+                            </FlexLayout>
+                        </Border>
+                        <Border Stroke="Black" Padding="25">
+                            <FlexLayout>
+                                <Label Text="Superficie: " TextColor="Black"/>
+                                <Label Text="{Binding record.Superficie}" TextColor="Black"/>
+                            </FlexLayout>
+                        </Border>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <StackLayout Grid.Row="3" Padding="10, 15" BackgroundColor="AntiqueWhite"  HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Copyright © 2024 ComuneGrosseto. Tutti i diritti sono riservati."
+                   FontSize="Small"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Gray"/>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

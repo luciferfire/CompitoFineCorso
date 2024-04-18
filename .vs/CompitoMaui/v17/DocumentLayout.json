@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|c:\\users\\cirob\\desktop\\maui e xamarin\\compitomaui\\compitomaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|solutionrelative:compitomaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|c:\\users\\cirob\\desktop\\maui e xamarin\\compitomaui\\compitomaui\\meteo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|solutionrelative:compitomaui\\meteo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|c:\\users\\cirob\\desktop\\maui e xamarin\\compitomaui\\compitomaui\\models\\meteo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|solutionrelative:compitomaui\\models\\meteo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|c:\\users\\cirob\\desktop\\maui e xamarin\\compitomaui\\compitomaui\\meteo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85934E2C-7789-4DC1-B53D-682C0B14C40F}|CompitoMaui\\CompitoMaui.csproj|solutionrelative:compitomaui\\meteo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Meteo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\Meteo.xaml.cs",
+              "RelativeDocumentMoniker": "CompitoMaui\\Meteo.xaml.cs",
+              "ToolTip": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\Meteo.xaml.cs",
+              "RelativeToolTip": "CompitoMaui\\Meteo.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwEUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:34:29.431Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Meteo.cs",
+              "DocumentMoniker": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\Models\\Meteo.cs",
+              "RelativeDocumentMoniker": "CompitoMaui\\Models\\Meteo.cs",
+              "ToolTip": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\Models\\Meteo.cs",
+              "RelativeToolTip": "CompitoMaui\\Models\\Meteo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:49:20.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Meteo.xaml",
+              "DocumentMoniker": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\Meteo.xaml",
+              "RelativeDocumentMoniker": "CompitoMaui\\Meteo.xaml",
+              "ToolTip": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\Meteo.xaml",
+              "RelativeToolTip": "CompitoMaui\\Meteo.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwCQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T09:26:00.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "CompitoMaui\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\cirob\\Desktop\\MAUI E XAMARIN\\CompitoMaui\\CompitoMaui\\AppShell.xaml",
+              "RelativeToolTip": "CompitoMaui\\AppShell.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T13:39:21.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

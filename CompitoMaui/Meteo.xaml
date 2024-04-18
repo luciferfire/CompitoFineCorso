@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompitoMaui.Meteo"
+             Title="Meteo">
+    <Grid RowDefinitions="100,50,*,70">
+        
+        <Label Grid.Row="0" x:Name="ImageStatus" Text="{Binding Status}" FontSize="50"  HorizontalOptions="Center"/>
+        <Label Grid.Row="1" x:Name="TempStatus" Text="" FontSize="Medium" TextColor="#000" HorizontalOptions="Center" />
+        <CollectionView Grid.Row="2" ItemsSource="{Binding dailyList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Stroke="Black" Padding="25">
+                        <Grid ColumnDefinitions="150,150" Padding="25,0">
+                            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start" >
+                                <Label Text="{Binding time,StringFormat='Time: {0:dd/MM/yyyy HH:mm}'}" FontAttributes="Bold"/>
+                                <Label Text="{Binding status}" FontSize="Large"/>
+
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="1" HorizontalOptions="End" VerticalOptions="End">
+                                <Label Text="{Binding values.temperatureMin, StringFormat='Min:{0}°C'}" />
+                                <Label Text="{Binding values.temperatureMax, StringFormat='Max:{0}°C'}"/>
+                                <Label Text="{Binding values.sunriseTime, StringFormat='Sunrise: {0:HH:mm}'}" />
+                                <Label Text="{Binding values.sunsetTime, StringFormat='Sunset: {0:HH:mm}'}"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <StackLayout Grid.Row="3" Padding="10, 15" BackgroundColor="AntiqueWhite"  HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Copyright © 2024 ComuneGrosseto. Tutti i diritti sono riservati."
+              FontSize="Small"
+              VerticalTextAlignment="Center"
+              HorizontalTextAlignment="Center"
+              TextColor="Gray"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

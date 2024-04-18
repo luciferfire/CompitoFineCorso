@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompitoMaui", "CompitoMaui\CompitoMaui.csproj", "{85934E2C-7789-4DC1-B53D-682C0B14C40F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85934E2C-7789-4DC1-B53D-682C0B14C40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85934E2C-7789-4DC1-B53D-682C0B14C40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85934E2C-7789-4DC1-B53D-682C0B14C40F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85934E2C-7789-4DC1-B53D-682C0B14C40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85934E2C-7789-4DC1-B53D-682C0B14C40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85934E2C-7789-4DC1-B53D-682C0B14C40F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A804ADB3-2E33-45E1-ACED-BF2A5616765E}
+	EndGlobalSection
+EndGlobal
